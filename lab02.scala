@@ -1,1 +1,0 @@
-println("Hello scala world")
