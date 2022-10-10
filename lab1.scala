@@ -5,3 +5,5 @@ val df = spark.read.format("csv").option("inferschema",true).load("/home/hduser/
 df.show()
 
 df.printSchema()
+
+df.show(50,flase)
