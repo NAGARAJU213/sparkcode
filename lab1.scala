@@ -7,3 +7,4 @@ df.show()
 df.printSchema()
 
 df.show(50,flase)
+val = df.rdd()
